@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Light</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+     <div class="box1">
+        <div class="control-center">
+            <h3>Speed</h3>
+            <button id="btn1" onclick="one()">0.5x</button>
+            <button id="btn2" onclick="two()">1x</button>
+            <button id="btn3" onclick="three()">2x</button>
+
+        </div>
+     </div>
+      <script>
+    const box = document.querySelector(".box1");
+    document.getElementById("btn1").onclick = function () {
+      box.style.animationDuration = "2s";
+      console.log("Speed set to 0.5x");
+    };
+
+    document.getElementById("btn2").onclick = function () {
+      box.style.animationDuration = "1s";
+      console.log("Speed set to 1x");
+    };
+
+    document.getElementById("btn3").onclick = function () {
+      box.style.animationDuration = "0.5s"; 
+      console.log("Speed set to 2x");
+    };
+  </script>
+	
+</body>
+</html>

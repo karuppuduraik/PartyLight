@@ -1,0 +1,75 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.box1{
+    width:100vw;
+    height:100vh;
+    color:white;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items:end;
+    padding:10px;
+    background:linear-gradient(90deg,red,yellow,blue,green );
+    box-shadow: 0 0 30px red;
+    filter: brightness(100%);
+    animation: ani linear infinite 1s;
+    transition: all 1s ease;
+}
+.control-center{
+    width: 130px;
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    position: absolute;
+    background:rgba(0, 0, 0, 0.473);
+    text-align: center;
+    color:beige;
+}
+button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:solid 1px white;
+    margin:2px;
+    padding: 1px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+    @keyframes ani {
+    0%{
+ background:red;
+ box-shadow: 0 0 30px red;
+    }
+    25%{
+        background:blue;
+        box-shadow:0 0 30px blue;
+    }
+    50%{
+        background:yellow;
+        box-shadow:0 0 30px yellow;
+    }
+    75%{
+        background:green;
+        box-shadow: 0 0 30px green;
+    }
+    100%{
+        background:red;
+        box-shadow: 0 0 30px red;
+    }
+
+}
