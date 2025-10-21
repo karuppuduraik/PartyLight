@@ -22,30 +22,23 @@ Users can control the animation speed using interactive buttons.
   - `1x` → Normal  
   - `2x` → Fast  
 - The effect is achieved with JavaScript event listeners that modify the CSS `animation-duration` property.
-
----
 📁 Party-Light
 │
 ├── index.html # Main HTML file with structure and JavaScript
 ├── style.css # Styling and animation logic
 └── README.md # Project documentation
+💡 Technologies Used
 
-##💡 Technologies Used
+HTML5 for structure
 
--HTML5 for structure
--CSS3 for styling and animations
--JavaScript (Vanilla) for interactivity
+CSS3 for styling and animations
 
-##📸 Preview
--The background smoothly transitions between red, blue, yellow, and green with glowing light effects.
+JavaScript (Vanilla) for interactivity
+
+📸 Preview
+
+The background smoothly transitions between red, blue, yellow, and green with glowing light effects.
 Speed controls float at the bottom-right corner.
-
-##📜 License
--This project is open-source and available under the MIT License.
-
-##👨‍💻 Author
--Created by Karuppuduraik
-
 
 ## 🗂️ Project Structure
 
